@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        LocalPushManager.shared.requestAuthorization()
-        LocalPushManager.shared.sendLocalPush()
     }
 
     @IBAction func onPasswordButtonClick(_ sender: UITextField) {
