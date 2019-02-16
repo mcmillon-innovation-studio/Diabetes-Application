@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D723E28C6C9ABE43EFE79593D6B59F /* Pods-Diabetes ApplicationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7B3BF7E69F5C14A3F2C799BD055FF0 /* Pods-Diabetes ApplicationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106808C5A91FAD3069313A51AC490882 /* Pods-Diabetes ApplicationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F72FB7F9342907475499C5A38C67534A /* Pods-Diabetes ApplicationTests-dummy.m */; };
+		1D13F4457328239916F4E94FAA262B08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		65A589CBBDF4B2FC3A82F72AE39C2DEB /* Pods-Diabetes ApplicationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232A7C9621428DE523F205B705672EE4 /* Pods-Diabetes ApplicationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E1CF58554DB5F3C35ED6FB11396C63 /* Pods-Diabetes ApplicationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B56C27F049B5B768799C9B725EAA5DBB /* Pods-Diabetes ApplicationUITests-dummy.m */; };
+		75A3F088F4CDA69401CC2869ECF804BB /* Pods-Diabetes Application-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6088A3CD06047AE49AB9D20109A74D72 /* Pods-Diabetes Application-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FCEFAB3408AFD607219D6CCB27B7AFE /* Pods-Diabetes Application-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68014FAF6BCEF725AA60E4761B00C133 /* Pods-Diabetes Application-dummy.m */; };
+		85DA45D1416923B55CB265814E177DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DA6F70A32CCB565F7AE4163EB2DDF3E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B311904DE5361CA694BDCB61B2D1A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DAE7A2F47DBAA68383C4232B8C66D6;
+			remoteInfo = "Pods-Diabetes Application";
+		};
+		BAC3ED296603457BA53A0D27A55F6118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DAE7A2F47DBAA68383C4232B8C66D6;
+			remoteInfo = "Pods-Diabetes Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B155628E2AA054975E9E5B10EDD5803 /* Pods-Diabetes Application-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diabetes Application-frameworks.sh"; sourceTree = "<group>"; };
+		1F2225D90CF20D24AE19845C6D506617 /* Pods-Diabetes ApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diabetes ApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		232A7C9621428DE523F205B705672EE4 /* Pods-Diabetes ApplicationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diabetes ApplicationTests-umbrella.h"; sourceTree = "<group>"; };
+		58444FBDA8818D9FB464B68AC4946D20 /* Pods-Diabetes Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diabetes Application.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DA2ACAAC8CEA2BC9C5444DFF2B31D1D /* Pods_Diabetes_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Diabetes_Application.framework; path = "Pods-Diabetes Application.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6016E63588EFDFA9EDC51692828459C1 /* Pods-Diabetes ApplicationUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diabetes ApplicationUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6088A3CD06047AE49AB9D20109A74D72 /* Pods-Diabetes Application-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diabetes Application-umbrella.h"; sourceTree = "<group>"; };
+		650EEE9955B655A1ADA17FC1D6788DCE /* Pods-Diabetes Application.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Diabetes Application.modulemap"; sourceTree = "<group>"; };
+		653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		68014FAF6BCEF725AA60E4761B00C133 /* Pods-Diabetes Application-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diabetes Application-dummy.m"; sourceTree = "<group>"; };
+		6B16288E3E7B76B078EBCA789DE9A328 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DEB2511FB35687B56BA072F3EF82579 /* Pods-Diabetes ApplicationTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diabetes ApplicationTests-frameworks.sh"; sourceTree = "<group>"; };
+		81F46277920D57F148F75F08197E5A49 /* Pods-Diabetes ApplicationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diabetes ApplicationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		837E803A92AAC0B4BF529721D4CD7BC1 /* Pods-Diabetes ApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diabetes ApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8509CD7D000A10C7FE6D9DE437930B52 /* Pods-Diabetes Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diabetes Application.debug.xcconfig"; sourceTree = "<group>"; };
+		8BEE254EA5FBAD482CA5DB8C8FE32623 /* Pods-Diabetes Application-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diabetes Application-resources.sh"; sourceTree = "<group>"; };
+		8C82F53F4ADDA058E78F62680DD9ECBC /* Pods_Diabetes_ApplicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Diabetes_ApplicationTests.framework; path = "Pods-Diabetes ApplicationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8EB87F389FB81289B1CCA5AB96E765 /* Pods-Diabetes Application-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diabetes Application-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A5C526B0885D16B6B54D81EC329EE43 /* Pods-Diabetes ApplicationUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diabetes ApplicationUITests-resources.sh"; sourceTree = "<group>"; };
+		9FA692FB4EC0DC39C0902C0ED11295C9 /* Pods-Diabetes ApplicationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diabetes ApplicationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5347053729A58BCA128729DF0CA3767 /* Pods-Diabetes ApplicationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diabetes ApplicationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2B4E643E76F15555FFFE92DDC0DA3BB /* Pods-Diabetes ApplicationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Diabetes ApplicationTests.modulemap"; sourceTree = "<group>"; };
+		B56C27F049B5B768799C9B725EAA5DBB /* Pods-Diabetes ApplicationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diabetes ApplicationUITests-dummy.m"; sourceTree = "<group>"; };
+		BB27CB48E66290CB41C058AD999CC6FD /* Pods_Diabetes_ApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Diabetes_ApplicationUITests.framework; path = "Pods-Diabetes ApplicationUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		CEB8AFE015B18A637787C606D1BE9582 /* Pods-Diabetes ApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diabetes ApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFEBE77C0C1F8A096B13B74FA06E54A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24C11DDAF2BE48F198578E8E1EE74D2 /* Pods-Diabetes ApplicationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diabetes ApplicationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE34E43B4A8B95288EBA48FE712A6D11 /* Pods-Diabetes ApplicationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Diabetes ApplicationUITests.modulemap"; sourceTree = "<group>"; };
+		E02C549F0040061679892EC17CB2C361 /* Pods-Diabetes ApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diabetes ApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		E97C0CFD6499FF4CF94E96F1124D1AC9 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		E9A4AF945CED8CBDABA8B079BB61CB4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7B3BF7E69F5C14A3F2C799BD055FF0 /* Pods-Diabetes ApplicationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diabetes ApplicationUITests-umbrella.h"; sourceTree = "<group>"; };
+		EF892C9062C6BFB29C1DDB4E0ABDBFCD /* Pods-Diabetes ApplicationTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diabetes ApplicationTests-resources.sh"; sourceTree = "<group>"; };
+		F72FB7F9342907475499C5A38C67534A /* Pods-Diabetes ApplicationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diabetes ApplicationTests-dummy.m"; sourceTree = "<group>"; };
+		F84394C0D883BAA77FB1A10D713A8E17 /* Pods-Diabetes Application-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diabetes Application-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64FEB0576119B770EFEBFD73959F68AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6F70A32CCB565F7AE4163EB2DDF3E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E40863E9E38BD4F20EF3A904D9F502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DA45D1416923B55CB265814E177DA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8BBF4507268BA6A7C2976CF54D50BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D13F4457328239916F4E94FAA262B08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031E5EE65725A98A89EC00131DB647C9 /* Pods-Diabetes ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B16288E3E7B76B078EBCA789DE9A328 /* Info.plist */,
+				DE34E43B4A8B95288EBA48FE712A6D11 /* Pods-Diabetes ApplicationUITests.modulemap */,
+				D24C11DDAF2BE48F198578E8E1EE74D2 /* Pods-Diabetes ApplicationUITests-acknowledgements.markdown */,
+				9FA692FB4EC0DC39C0902C0ED11295C9 /* Pods-Diabetes ApplicationUITests-acknowledgements.plist */,
+				B56C27F049B5B768799C9B725EAA5DBB /* Pods-Diabetes ApplicationUITests-dummy.m */,
+				6016E63588EFDFA9EDC51692828459C1 /* Pods-Diabetes ApplicationUITests-frameworks.sh */,
+				9A5C526B0885D16B6B54D81EC329EE43 /* Pods-Diabetes ApplicationUITests-resources.sh */,
+				EB7B3BF7E69F5C14A3F2C799BD055FF0 /* Pods-Diabetes ApplicationUITests-umbrella.h */,
+				1F2225D90CF20D24AE19845C6D506617 /* Pods-Diabetes ApplicationUITests.debug.xcconfig */,
+				837E803A92AAC0B4BF529721D4CD7BC1 /* Pods-Diabetes ApplicationUITests.release.xcconfig */,
+			);
+			name = "Pods-Diabetes ApplicationUITests";
+			path = "Target Support Files/Pods-Diabetes ApplicationUITests";
+			sourceTree = "<group>";
+		};
+		2BE4EFFE092A9DA7A925B1DF402E929B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		31FCEF07CF69EFFBA26AA47D618E5B2A /* Pods-Diabetes ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBE77C0C1F8A096B13B74FA06E54A0 /* Info.plist */,
+				B2B4E643E76F15555FFFE92DDC0DA3BB /* Pods-Diabetes ApplicationTests.modulemap */,
+				A5347053729A58BCA128729DF0CA3767 /* Pods-Diabetes ApplicationTests-acknowledgements.markdown */,
+				81F46277920D57F148F75F08197E5A49 /* Pods-Diabetes ApplicationTests-acknowledgements.plist */,
+				F72FB7F9342907475499C5A38C67534A /* Pods-Diabetes ApplicationTests-dummy.m */,
+				7DEB2511FB35687B56BA072F3EF82579 /* Pods-Diabetes ApplicationTests-frameworks.sh */,
+				EF892C9062C6BFB29C1DDB4E0ABDBFCD /* Pods-Diabetes ApplicationTests-resources.sh */,
+				232A7C9621428DE523F205B705672EE4 /* Pods-Diabetes ApplicationTests-umbrella.h */,
+				CEB8AFE015B18A637787C606D1BE9582 /* Pods-Diabetes ApplicationTests.debug.xcconfig */,
+				E02C549F0040061679892EC17CB2C361 /* Pods-Diabetes ApplicationTests.release.xcconfig */,
+			);
+			name = "Pods-Diabetes ApplicationTests";
+			path = "Target Support Files/Pods-Diabetes ApplicationTests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E72FE505486D66241C353F0B810A506 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				2BE4EFFE092A9DA7A925B1DF402E929B /* Base */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */,
+				C0F618ED0661C8A6E3E3ED18EE30000A /* Products */,
+				FE3FC4097549CD01C3CB85847110480C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */,
+				8F65AED48186CC52021B01455C4C9894 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		8F65AED48186CC52021B01455C4C9894 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E97C0CFD6499FF4CF94E96F1124D1AC9 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4D42B66ED75F7DEB7629C92176C11B8 /* Pods-Diabetes Application */ = {
+			isa = PBXGroup;
+			children = (
+				E9A4AF945CED8CBDABA8B079BB61CB4A /* Info.plist */,
+				650EEE9955B655A1ADA17FC1D6788DCE /* Pods-Diabetes Application.modulemap */,
+				F84394C0D883BAA77FB1A10D713A8E17 /* Pods-Diabetes Application-acknowledgements.markdown */,
+				8C8EB87F389FB81289B1CCA5AB96E765 /* Pods-Diabetes Application-acknowledgements.plist */,
+				68014FAF6BCEF725AA60E4761B00C133 /* Pods-Diabetes Application-dummy.m */,
+				0B155628E2AA054975E9E5B10EDD5803 /* Pods-Diabetes Application-frameworks.sh */,
+				8BEE254EA5FBAD482CA5DB8C8FE32623 /* Pods-Diabetes Application-resources.sh */,
+				6088A3CD06047AE49AB9D20109A74D72 /* Pods-Diabetes Application-umbrella.h */,
+				8509CD7D000A10C7FE6D9DE437930B52 /* Pods-Diabetes Application.debug.xcconfig */,
+				58444FBDA8818D9FB464B68AC4946D20 /* Pods-Diabetes Application.release.xcconfig */,
+			);
+			name = "Pods-Diabetes Application";
+			path = "Target Support Files/Pods-Diabetes Application";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F618ED0661C8A6E3E3ED18EE30000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DA2ACAAC8CEA2BC9C5444DFF2B31D1D /* Pods_Diabetes_Application.framework */,
+				8C82F53F4ADDA058E78F62680DD9ECBC /* Pods_Diabetes_ApplicationTests.framework */,
+				BB27CB48E66290CB41C058AD999CC6FD /* Pods_Diabetes_ApplicationUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8F2A686DF2233D7DB9FF40571A826D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4F111A38DA22556D2C6DCD60CD7BC /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDAC1D5BBA8FDEF7E81533A38BCCCBEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E72FE505486D66241C353F0B810A506 /* GoogleMaps */,
+				82D72D0248F4FCC5BE15387C41E19075 /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE3FC4097549CD01C3CB85847110480C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4D42B66ED75F7DEB7629C92176C11B8 /* Pods-Diabetes Application */,
+				31FCEF07CF69EFFBA26AA47D618E5B2A /* Pods-Diabetes ApplicationTests */,
+				031E5EE65725A98A89EC00131DB647C9 /* Pods-Diabetes ApplicationUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE48C5CAC8E42ECC8DC6F24FB12425EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				653F849BC2732CB3078BF4AB439A19ED /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05EEA84DDFA6864AF612EF30B5C88BC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A3F088F4CDA69401CC2869ECF804BB /* Pods-Diabetes Application-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619FB22B4C4660980D907338D2E67609 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65A589CBBDF4B2FC3A82F72AE39C2DEB /* Pods-Diabetes ApplicationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9400721D66C5E39A64818E68BA4063ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D723E28C6C9ABE43EFE79593D6B59F /* Pods-Diabetes ApplicationUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1185534211D1100D234856701455825A /* Pods-Diabetes ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FCC88D1F63F208C3458CF59C1EA691 /* Build configuration list for PBXNativeTarget "Pods-Diabetes ApplicationTests" */;
+			buildPhases = (
+				619FB22B4C4660980D907338D2E67609 /* Headers */,
+				1FB2039855EC3B49EACF2CD062F757C1 /* Sources */,
+				64FEB0576119B770EFEBFD73959F68AC /* Frameworks */,
+				32088093689773B57524F20E231796AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AA95ADC067924685A56AEAE1F62D98B /* PBXTargetDependency */,
+			);
+			name = "Pods-Diabetes ApplicationTests";
+			productName = "Pods-Diabetes ApplicationTests";
+			productReference = 8C82F53F4ADDA058E78F62680DD9ECBC /* Pods_Diabetes_ApplicationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21DAE7A2F47DBAA68383C4232B8C66D6 /* Pods-Diabetes Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914874263F521F865C1747FD3AB3FDA9 /* Build configuration list for PBXNativeTarget "Pods-Diabetes Application" */;
+			buildPhases = (
+				05EEA84DDFA6864AF612EF30B5C88BC8 /* Headers */,
+				6F443AB383B8B330F4AC8197B9122F7D /* Sources */,
+				FA8BBF4507268BA6A7C2976CF54D50BD /* Frameworks */,
+				DF1825129E0DCF63EE174DF0FEEEBAA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Diabetes Application";
+			productName = "Pods-Diabetes Application";
+			productReference = 5DA2ACAAC8CEA2BC9C5444DFF2B31D1D /* Pods_Diabetes_Application.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3151836C6146C8A49F0985A9C84817E6 /* Pods-Diabetes ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF8B90C7FDAFFFA58608CA6F92BFAC4 /* Build configuration list for PBXNativeTarget "Pods-Diabetes ApplicationUITests" */;
+			buildPhases = (
+				9400721D66C5E39A64818E68BA4063ED /* Headers */,
+				5559497D02B90A0DEE84E957E889EB05 /* Sources */,
+				99E40863E9E38BD4F20EF3A904D9F502 /* Frameworks */,
+				A7241C2570435C58A1553AC6366BFCF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5052746EE9FDCF7895ECC92AD6E502B5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Diabetes ApplicationUITests";
+			productName = "Pods-Diabetes ApplicationUITests";
+			productReference = BB27CB48E66290CB41C058AD999CC6FD /* Pods_Diabetes_ApplicationUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C0F618ED0661C8A6E3E3ED18EE30000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21DAE7A2F47DBAA68383C4232B8C66D6 /* Pods-Diabetes Application */,
+				1185534211D1100D234856701455825A /* Pods-Diabetes ApplicationTests */,
+				3151836C6146C8A49F0985A9C84817E6 /* Pods-Diabetes ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32088093689773B57524F20E231796AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7241C2570435C58A1553AC6366BFCF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1825129E0DCF63EE174DF0FEEEBAA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB2039855EC3B49EACF2CD062F757C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106808C5A91FAD3069313A51AC490882 /* Pods-Diabetes ApplicationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5559497D02B90A0DEE84E957E889EB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1CF58554DB5F3C35ED6FB11396C63 /* Pods-Diabetes ApplicationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F443AB383B8B330F4AC8197B9122F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FCEFAB3408AFD607219D6CCB27B7AFE /* Pods-Diabetes Application-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5052746EE9FDCF7895ECC92AD6E502B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Diabetes Application";
+			target = 21DAE7A2F47DBAA68383C4232B8C66D6 /* Pods-Diabetes Application */;
+			targetProxy = BAC3ED296603457BA53A0D27A55F6118 /* PBXContainerItemProxy */;
+		};
+		8AA95ADC067924685A56AEAE1F62D98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Diabetes Application";
+			target = 21DAE7A2F47DBAA68383C4232B8C66D6 /* Pods-Diabetes Application */;
+			targetProxy = 65B311904DE5361CA694BDCB61B2D1A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E59B34EA6234CBCE080D07A38EC1944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB8AFE015B18A637787C606D1BE9582 /* Pods-Diabetes ApplicationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diabetes ApplicationTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diabetes ApplicationTests/Pods-Diabetes ApplicationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19C7240AB223843548FD2BB20D7141F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58444FBDA8818D9FB464B68AC4946D20 /* Pods-Diabetes Application.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diabetes Application/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diabetes Application/Pods-Diabetes Application.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26F9FEB897523564F4B9C1DA00608651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837E803A92AAC0B4BF529721D4CD7BC1 /* Pods-Diabetes ApplicationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diabetes ApplicationUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diabetes ApplicationUITests/Pods-Diabetes ApplicationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DC861F53B471F106BC8ACC4475EFA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		93D7EF23BC8BFC570025CE4A0106AC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8509CD7D000A10C7FE6D9DE437930B52 /* Pods-Diabetes Application.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diabetes Application/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diabetes Application/Pods-Diabetes Application.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE4EE419178210B922C87CCB5028C4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2225D90CF20D24AE19845C6D506617 /* Pods-Diabetes ApplicationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diabetes ApplicationUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diabetes ApplicationUITests/Pods-Diabetes ApplicationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDBE16A28EB260940BB82E5E04366929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02C549F0040061679892EC17CB2C361 /* Pods-Diabetes ApplicationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diabetes ApplicationTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diabetes ApplicationTests/Pods-Diabetes ApplicationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8322AE3FB6DF16A80BCBA121575DBB8A /* Debug */,
+				8DC861F53B471F106BC8ACC4475EFA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914874263F521F865C1747FD3AB3FDA9 /* Build configuration list for PBXNativeTarget "Pods-Diabetes Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D7EF23BC8BFC570025CE4A0106AC54 /* Debug */,
+				19C7240AB223843548FD2BB20D7141F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FCC88D1F63F208C3458CF59C1EA691 /* Build configuration list for PBXNativeTarget "Pods-Diabetes ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E59B34EA6234CBCE080D07A38EC1944 /* Debug */,
+				DDBE16A28EB260940BB82E5E04366929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF8B90C7FDAFFFA58608CA6F92BFAC4 /* Build configuration list for PBXNativeTarget "Pods-Diabetes ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4EE419178210B922C87CCB5028C4BD /* Debug */,
+				26F9FEB897523564F4B9C1DA00608651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
